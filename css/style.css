@@ -206,9 +206,9 @@ body {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  gap: 30px;
-  left: 30%;
-  bottom: 43%;
+  gap: 100px;
+  left: 41%;
+  bottom: 41%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -216,8 +216,15 @@ body {
 
 .header__title {
   font-family: "Arial", sans-serif;
-  font-size: 40px;
+  font-size: 25px;
+  line-height: 70px;
   color: #ffffff;
+}
+
+.header__title span {
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 20px;
 }
 
 .header__btn {
@@ -254,5 +261,11 @@ body {
 @media (min-width: 576px) {
   .header {
     max-height: 650px;
+  }
+}
+
+@media (min-width: 600px) {
+  .header__wrapper {
+    left: 30%;
   }
 }
