@@ -285,6 +285,11 @@ body {
   text-transform: uppercase;
   width: 50%;
 }
+
+.hero__box-text_width {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .hero__box {
     -webkit-box-pack: justify;
@@ -294,9 +299,6 @@ body {
   .hero__box-text {
     width: auto;
   }
-}
-.hero__box-text_width {
-  width: 100%;
 }
 .wish {
   margin-top: 150px;
