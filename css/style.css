@@ -242,10 +242,12 @@ body {
 }
 
 .header__text {
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
-  font-weight: 700;
-  line-height: 12px;
+  font-weight: 400;
+  line-height: 19px;
   letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .header__btn {
@@ -274,7 +276,7 @@ body {
 }
 
 .hero__inner {
-  margin-bottom: 60px;
+  margin-bottom: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,7 +333,7 @@ body {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  top: 40px;
+  top: -54px;
   left: 0;
 }
 
@@ -354,7 +356,9 @@ body {
 }
 
 .wish {
-  margin-top: 150px;
+  margin-top: 100px;
+  padding: 70px 0;
+  background-color: #ffffff;
 }
 
 .wish__inner {
@@ -379,27 +383,35 @@ body {
 }
 
 .wish__title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+  color: #000000;
 }
 
 .wish__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 17px 10px;
   width: calc(30% - 5px);
   min-height: 59px;
   font-size: 12px;
   font-weight: 500;
   line-height: 12px;
+  color: rgb(121, 121, 121);
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(white)) padding-box, -webkit-gradient(linear, left top, right top, from(#ffffff), to(rgb(121, 121, 121))) border-box;
+  background: -o-linear-gradient(white, white) padding-box, -o-linear-gradient(left, #ffffff, rgb(121, 121, 121)) border-box;
+  background: linear-gradient(white, white) padding-box, linear-gradient(to right, #ffffff, rgb(121, 121, 121)) border-box;
   border-radius: 10px;
-  color: #b9b9b9;
-  border: 1px solid rgb(121, 121, 121);
-}
-
-.wish__item:nth-child(even) {
-  color: #000000;
-  background-color: #ffffff;
+  border: 2px solid transparent;
 }
 
 .admin {
